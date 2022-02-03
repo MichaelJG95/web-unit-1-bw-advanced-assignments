@@ -1,1 +1,138 @@
 /* for the most part, your styles are up to you this time; just make it look nice */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/*border: 0;*/
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+    border: 1px solid gray;
+}
+
+/*general styles*/
+html{
+    font-size: 62.5%; /* 1 rem = 10px*/
+}
+
+body{
+    line-height: 1.5;
+    font-size: 1.8rem;
+    color: whitesmoke; 
+    background-color: black;
+    margin: 0 5%;   
+}
+h1, h2, h3{
+    letter-spacing: 3px;
+    text-align: center;
+    color: #f5dee0;
+    background-color:#081420;
+}
+h1{
+    font-size: 5rem;
+}
+h2{
+    font-size: 4rem;
+}
+h3{
+    font-size: 2.5rem;
+    background-color: #161825;
+    color: #fffef6;
+}
+a{
+    text-decoration: none;
+    color: #4f4f4f;
+}
+section{
+    padding: 4% 0;
+}
+
+
+.scores{
+    display: flex;
+}
+
+.score{
+    width: 50%;
+   
+}
+
+.move{
+    height: 50vh;
+    background: #6672a4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#human{
+    color:#caae02;
+    font-size: 4rem;
+}
+
+#computer{
+    color:#caae02;
+    font-size: 4rem;
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    height: 20vh;
+    align-items: center;
+    background-color: #3c4566;
+}
+
+button{
+    color:#caae02;
+    font-size: 4rem;
+}
+
+span{
+    width: 100%;
+}
